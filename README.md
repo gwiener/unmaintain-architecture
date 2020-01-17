@@ -13,3 +13,20 @@ maintain their exagguratedly high-paying jobs forever. Feel free to contribute b
 ## Disclaimer
 This article is a **joke**. It aims as pointing out bad practices by rediciuling them. 
 DO NOT try these techniques in the wild! They will lead only to sorrow and destruction.
+
+## Architecture diagrams
+Your job as an architect is not to cater for all of those pesky details. It is **to lead**. To point out the way.
+You are no longer a developer. You are a visionary; an entrepreneur, just without the financial risk (or benefit).
+Therefore, you cannot be expected to actually *write code* that implements your vision. This is for lesser men.
+Your job is present the one-and-only ideal solution to both management and co-workers, and let them take it on from there - 
+and no presentation is ever complete without a diagram.
+
+### Keep it simple
+Visual hints, such as shapes and colors, are more a distraction than help. There is no need to use one of those carefully-designed
+icons sets of cloud services, or, *shudder*, a formal graphical notation. Instead, go with a classic block diagram, made of those 
+wide-margin, small-font boxes, connected by half-point arrows. If you must use colors, stick to PowerPoint's default pallate of
+high-saturation colors that poke viewes' eyes and hide away black letters. 
+If it is good enough for an elementary school multimedia class, it's good enough for the board of directors!
+
+- [ ] Add monochrome diagram example
+- [ ] Add diagram example with really ugly colors
