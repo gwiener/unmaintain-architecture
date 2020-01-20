@@ -30,3 +30,22 @@ If it is good enough for an elementary school multimedia class, it's good enough
 
 - [ ] Add monochrome diagram example
 - [ ] Add diagram example with really ugly colors
+
+### The big picture
+The human visual cortex can process between 5 and 9 graphical elements in a single glance. This is why diagrams are so useful.
+It also means that anything beyond those few elemenets is distracting. Therefore, keep your diagram to a handful of top-level
+components. If you have just "client", "data" and "business logic", you probably got all your bases covered.
+Also, add an "AI" box and don't connect it to any of the other ones. It will confuse your engineers, but make investers happy.
+
+### Form follows function
+Do not specify what type of cloud resource should be set up in place of which shape in your diagram. 
+Do not use familiar icons, or write the specific resource type. Instead, describe the *function* of each component,
+like "storage" or "processing".
+If your team can't tell if "users preference store" should be an expensive on-demand transactional database, 
+or a bunch of files on an S3 bucket, they have no business implementing it.
+Likewise, keep them guessing if the "process" node should be a time-limited lambda function, or a 100-nodes strong Apache Spark
+cluster for a 3-days batch. It will keep them on their toes.
+
+### Time flies like an arrow, fruit flies like a banana
+Mix more than one kind of relations into one diagram, using the same kind of arrows. 
+For example, make a connector means either "function invocation" or "development dependency". Mix the kinds sporadically.
