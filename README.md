@@ -49,3 +49,15 @@ cluster for a 3-days batch. It will keep them on their toes.
 ### Time flies like an arrow, fruit flies like a banana
 Mix more than one kind of relations into one diagram, using the same kind of arrows. 
 For example, make a connector means either "function invocation" or "development dependency". Mix the kinds sporadically.
+
+### Art for art's sake
+Your design is not engineering, it is more than that, it is *art*, and should be treated accordingly.
+Shakespeare did not upload his manuscript of *Hamlet* to git, and neither should you.
+Resist any attempt to put your specifications under any sort of version control.
+Make sure that the most updated version of the document is always some slide in a PowerPoint presentation, 
+attached to a message in an e-mail thread with an unrelated title.
+
+### A picture is worth a thousand words
+Avoid textual diagram formats, like Graphviz, Mermaid, or PlantUML. Even worse, avoid textual specification formats, e.g. OPM.
+These will make it even more appealing to store your architecture in a version control system (see above).
+God forbid, people may even try to *read* your design! Diagrams should be seen, not read.
